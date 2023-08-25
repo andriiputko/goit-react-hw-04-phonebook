@@ -1,0 +1,30 @@
+.list {
+    display: flex;
+    gap: 50px;
+    background-color: antiquewhite;
+    margin: 0;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+.li {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 500;
+    color:rgb(35, 144, 240)
+}
+
+.button {
+    width: 50%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(62, 62, 150);
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
