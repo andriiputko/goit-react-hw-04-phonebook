@@ -1,5 +1,3 @@
-import { Component } from 'react';
-import { nanoid } from 'nanoid';
 import cl from "./Form.module.css"
 import { useState } from 'react';
 

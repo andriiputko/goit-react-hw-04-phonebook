@@ -1,4 +1,3 @@
-import { Component } from 'react';
 import Form from './Form';
 import { nanoid } from 'nanoid';
 import Contacts from './Contacts';
