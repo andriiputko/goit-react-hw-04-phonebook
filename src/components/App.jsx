@@ -47,7 +47,7 @@ export  function App() {
   };
 
   const changeFilter = filter => {
-    setFilter(filter);
+    setFilter(filter.currentTarget.value);
   };
 
   const getVisibleContacts = () => {
